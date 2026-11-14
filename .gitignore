@@ -1,0 +1,39 @@
+# PlatformIO
+.pio/
+.pio-core/
+.pioenvs/
+.piolibdeps/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Build artifacts / tooling output
+build/
+dist/
+.flasher-build/
+*.elf
+*.map
+*.bin
+*.exe
+*.spec.bak
+
+# Logs and diagnostic traces
+*.log
+*.etl
+*.csv
+*.toc
+*.status.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temp
+tmp/
