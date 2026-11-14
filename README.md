@@ -1,4 +1,4 @@
-# reCodex no-joystick firmware
+# lightbar
 
 reCodex 是运行在 ESP32-S3 上的 USB HID 输入/灯光设备固件。本仓库是其中的
 **无摇杆（no-joystick）变体**：设备作为纯 USB 有线 HID 键盘使用，BLE、摇杆、
