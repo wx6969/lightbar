@@ -2,8 +2,8 @@
 setlocal
 title ESP32-S3 firmware flasher
 set "ROOT=%~dp0"
-set "PYTHON=C:\Users\14376\AppData\Local\Programs\Python\Python310\python.exe"
-set "ESPTOOL=C:\Users\14376\.platformio\packages\tool-esptoolpy\esptool.py"
+set "PYTHON=%USERPROFILE%\AppData\Local\Programs\Python\Python310\python.exe"
+set "ESPTOOL=%USERPROFILE%\.platformio\packages\tool-esptoolpy\esptool.py"
 set "BIN=%ROOT%dist\reCodex-no-joystick-merged.bin"
 if not exist "%BIN%" for /f "delims=" %%F in ('dir /b /a-d "%ROOT%dist\*.bin" 2^>nul ^| findstr /i "merged"') do set "BIN=%ROOT%dist\%%F"
 set "PORTFILE=%TEMP%\codex_port.txt"

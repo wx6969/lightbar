@@ -4,8 +4,8 @@ chcp 65001 >nul
 title reCodex 无摇杆固件一键烧录
 
 set "ROOT=%~dp0"
-set "ESPTOOL=C:\Users\14376\.platformio\packages\tool-esptoolpy\esptool.py"
-set "PYTHON=C:\Users\14376\AppData\Local\Programs\Python\Python310\python.exe"
+set "ESPTOOL=%USERPROFILE%\.platformio\packages\tool-esptoolpy\esptool.py"
+set "PYTHON=%USERPROFILE%\AppData\Local\Programs\Python\Python310\python.exe"
 set "FIRMWARE=%ROOT%dist\reCodex-no-joystick-merged.bin"
 
 if not exist "%FIRMWARE%" (
